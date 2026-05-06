@@ -17,7 +17,7 @@ $ docker-compose run --rm -u root web bash -c "mkdir -p /bundle/vendor && chown 
 $ docker-compose run --rm web bundle install
 $ docker-compose run --rm web bundle exec rake db:create
 $ docker-compose run --rm web bundle exec rake db:migrate
-```
+``` 
 
 # Deprecated notices
 
